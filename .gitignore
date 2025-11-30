@@ -1,0 +1,271 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+## 通用模版
+##############################################
+# OS: macOS, Windows, Linux
+##############################################
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+*.icloud
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+*.swp
+*.swo
+.cache/
+lost+found/
+.profile
+
+##############################################
+# IDE & Editors
+##############################################
+
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+# IntelliJ / JetBrains
+.idea/
+*.ipr
+*.iws
+out/
+
+# Xcode / iOS / macOS
+DerivedData/
+*.xcworkspace/
+*.xcodeproj/*/xcuserdata/
+*.xcodeproj/*/project.xcworkspace/
+*.xcuserstate
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android Studio / Gradle
+.gradle/
+*.jks
+*.keystore
+captures/
+*.apk
+*.ap_/
+output.json
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+*.unitypackage
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# Visual Studio
+.vs/
+*.user
+*.opendb
+*.VC.db
+*.suo
+*.pdb
+*.obj
+*.cache/
+Debug*/
+Release*/
+x64/
+bin/
+obj/
+*.idb
+*.ilk
+*.tlog
+*.log
+
+##############################################
+# Programming Languages & Tools
+##############################################
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.whl
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.venv/
+env/
+venv/
+Pipfile.lock
+poetry.lock
+
+# C / C++
+*.o
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.dylib
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Rust / Cargo
+target/
+**/*.rs.bk
+*.lock
+
+# Java / Maven / Gradle
+*.class
+*.jar
+*.war
+*.ear
+*.classpath
+*.project
+*.settings
+.mvn/
+pom.xml.tag
+pom.xml.versionsBackup
+
+# Node / JavaScript / TypeScript / Web
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+dist/
+.babelrc
+.sass-cache
+
+# Go
+*.test
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Ruby
+.bundle/
+*.gem
+Gemfile.lock
+
+# .NET
+*.mdb
+*.pidb
+*.cache
+
+# LaTeX
+*.aux
+*.toc
+*.blg
+*.bbl
+*.gz
+
+##############################################
+# Containers / Virtual Machines
+##############################################
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# VirtualBox
+*.vbox
+*.vbox-prev
+*.vdi
+
+# VMware / Parallels
+*.vmwarevm/
+*.vmx
+*.vmdk
+parallels/
+
+##############################################
+# Game Engines & Assets
+##############################################
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.uproject.user
+
+##############################################
+# Misc / Security / Sensitive
+##############################################
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.env
+.env.*
+secrets/
+credentials/
+*.token
+
+# Logs & Temporary
+logs/
+tmp/
+temp/
+*.pid
+*.seed
+*.cover
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+
+##############################################
+# Git
+##############################################
+.gitmodules
+!.gitattributes # allow this one
